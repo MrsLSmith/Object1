@@ -37,3 +37,6 @@ there's still some good stuff in there if you really sift through all the techni
 and to see suggestions on problems that might be similar to yours. The stuff people do on there is usually more advanced than anything we do but definetly check it out.
 
 	Okay that's my two cents, sorry if you guys already knew this stuff and I'm just being a waste of time. 
+
+	P.S. Actually one more thing I forgot to add. If you do snatch little code snippets from StackOverflow or something MAKE SURE YOU UNDERSTAND THEM FULLY. It's
+like super hard and annoying for everyone involved to edit or fix code when you and no one else knows what's happening. 
