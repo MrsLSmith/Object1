@@ -1,0 +1,39 @@
+	So I don't think we've had a segment on using HTML buttons with Javascript in Treehouse yet. I don't know if you guys used these kinds of buttons in your Midterm 
+projects or not; but if you didn't here's a kind of terrible, half-baked crash-course about the ones I put in the HTML file I gave you guys. 
+
+	So in your HTML you're going to need to replace the Myfunction() with the name of you javaScript function. 
+
+		function printTable(){}  <--- The code in my javaScript 
+		<button type="button" id="table" onclick="printTable('List Table')" >List Table</button> <-- My button in the HTML
+	
+	Then put whatever junk you want the page to show when the button is clicked inside the function. 
+
+		<table id="printTable">  <--- I want it to print out this table here 
+              <thead>
+               <tr>
+                 <th scope="col">Name</th>
+                 <th scope="col">Color</th>
+                 <th scope="col">Characteristic</th>
+               </tr>
+             </thead>
+               </table>
+
+
+		function printTable(){
+
+                  var divToPrint=document.getElementById("printTable"); <--- So I used a getElementById here 
+      
+  
+                }
+
+	Now this method of printing isn't perfect but I think it might be the right track? I don't know I might be totally  wrong. The code above doesn't exactly work right.
+The table is not hidden until the button is pressed so the button pretty much does nothing right now. But I did test it, the buttons do work and do respond to being clicked 
+on if you use this method. 
+	If you want an example of this with buttons that work checkout this snapshot of the rock-paper-scissors portion of my Midterm. All of the code in it works well. 
+   	Snapshot --> https://w.trhou.se/fwur3vtsmn
+	
+	By the way, if you're having an issue just Google what you're trying to do. Usually you get a lot of stuff that's way over our heads and hard to figure out, but 
+there's still some good stuff in there if you really sift through all the technical jargon. StackOverflow is a good website to borrow little lines of code to play around with
+and to see suggestions on problems that might be similar to yours. The stuff people do on there is usually more advanced than anything we do but definetly check it out.
+
+	Okay that's my two cents, sorry if you guys already knew this stuff and I'm just being a waste of time. 
