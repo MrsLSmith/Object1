@@ -21,12 +21,12 @@ function printTable(hero){
   report+="<th>Color</th></thead></tr>";
     for (var i=0; i<superheroes.length;i+=1) {
   report +=  '<td>'+superheroes[i].Name+'</td>';
-  report +='<td>  '+superheroes[i].Color+'</td>';
-  report +='<td>  '+superheroes[i].Superpower+'</td></tr>'; 
+  report +='<td>  '+superheroes[i].Superpower+'</td>';
+  report +='<td>  '+superheroes[i].Color+'</td></tr>'; 
 
      }
   report+="</table>";
-  alert(report);
+ 
     var outputDiv = document.getElementById('output');
     outputDiv.innerHTML = report;
   }
