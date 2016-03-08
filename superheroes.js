@@ -26,3 +26,14 @@ function List() {
   output.innerHTML = HeroName;
   
 }
+
+//Ellen's JS
+
+function listChara() {
+  var char = '';
+  for (var prop in superheroes[0]) {
+    char += "<p>"+ prop + "</p>";
+  }
+  var output=document.getElementById("output");
+  output.innerHTML=char;
+}
