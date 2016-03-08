@@ -1,7 +1,0 @@
-<h1>Superheroes</h1>
-
-<button type="button" id="heroes" onclick="myFunction('')">List Heroes</button>
-<button onclick="listChara()">List Characteristics</button>
-<button type="button" id="table" onclick="myFunction('')">List Table</button>
-
-//I used listChara as my function
