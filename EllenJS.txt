@@ -1,0 +1,22 @@
+var superheroes = [{
+  Name: "Incredible Hulk",
+  Color: "Green",
+  Superpower: "Strength"
+}, {
+  Name: "Superman",
+  Color: "Blue",
+  Superpower: "Flying"
+}, {
+  Name: "Hawkeye",
+  Color: "Purple",
+  Superpower: "Archery"
+}];
+
+function listChara() {
+  var char = '';
+  for (var prop in superheroes[0]) {
+    char += "<p>"+ prop + "</p>";
+  }
+  var output=document.getElementById("output");
+  output.innerHTML=char;
+}
