@@ -1,6 +1,6 @@
 {
   "name": "Object1",
   "tagline": "",
-  "body": "<body  background = \"http://www.amazingwallpaperz.com/wp-content/uploads/Superman-with-Logo-Desktop-HD-Wallpaper.jpg\">\r\n<h1>Super Hero Project</h1>\r\n  \r\n  <div class=\"button\">\r\n    <button type=\"button\" id=\"heroes\"  onclick=\"List()\" >List heroes</button  > \r\n    <button type=\"button\" id=\"chara\" onclick=\"listChara()\">List Characteristics</button>\r\n    <button type=\"button\" id=\"table\" onclick=\"printTable('List Table')\" >List Table</button>\r\n  </div>\r\n  \r\n  <div id=\"HeroList\"></div>\r\n  \r\n  <div id=\"output\">\r\n    \r\n  </div>\r\n  \r\n  <img class= \"img\" src=\"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr6OMn41tk-22AP8Ozok016b2a-L3yFbtyCQaDwo3uukSZd_lY\"> \r\n  \r\n\r\n\r\n</body>",
+  "body": "<h1>Test of GitHub for hosting</h1>\r\n  \r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
